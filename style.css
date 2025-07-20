@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+  background: #fefefe;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+input[type="text"], input[type="date"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background: #0077cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+#summary {
+  margin-bottom: 2rem;
+  background: #f4f9ff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  font-size: 0.95rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.6rem;
+}
+
+th {
+  background: #eee;
+}
+
+tr:hover {
+  background: #f0fcff;
+}
